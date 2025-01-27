@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Container, Typography, Link, IconButton } from '@mui/material';
-import { Facebook, Twitter, LinkedIn, Instagram, Email } from '@mui/icons-material';
+import { GitHub, LinkedIn,  Email } from '@mui/icons-material';
 
 const Footer = () => {
   return (
@@ -10,11 +10,10 @@ const Footer = () => {
         bgcolor: 'primary.main',
         color: 'white',
         py: 4,
-        mt: 'auto', // Footer ko page ke neeche rakhe
+        mt: 'auto', 
       }}
     >
       <Container>
-        {/* Social Media Links */}
         <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, mb: 2 }}>
           <IconButton
             color="inherit"
@@ -23,6 +22,14 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <LinkedIn />
+          </IconButton>
+          <IconButton
+            color="inherit"
+            href="https://github.com/meesum23"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            <GitHub />
           </IconButton>
           <IconButton
             color="inherit"

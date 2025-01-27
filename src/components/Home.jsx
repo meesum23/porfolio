@@ -8,13 +8,11 @@ const Home = () => {
     <Box id="home" sx={{ bgcolor: 'primary.main', color: 'white', py: 8 }}>
       <Container>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 4 }}>
-          {/* Picture */}
           <Avatar
             src={pic}
             alt="My Picture"
             sx={{ width: 150, height: 150, border: '4px solid white' }}
           />
-          {/* Introduction */}
           <Box>
             <Typography variant="h2" gutterBottom>
               Hello, I'm Meesum Haider
