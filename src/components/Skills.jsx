@@ -1,19 +1,23 @@
 import React from 'react';
+import { Container, Typography, Box, Chip } from '@mui/material';
 
 const Skills = () => {
-  const skills = ['React', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Vite', 'Git'];
+  const skills = ['React', 'JavaScript', 'HTML', 'CSS', 'Node.js','MongoDB','Material UI',
+                  'Problem Solving','Express JS','MySQL','Bootstrap','Socket.io'];
 
   return (
-    <section id="skills" className="skills">
-      <div className="container">
-        <h2>Skills</h2>
-        <ul>
+    <Box id="skills" sx={{ py: 8, bgcolor: 'background.paper' }}>
+      <Container>
+        <Typography variant="h4" gutterBottom>
+          Skills
+        </Typography>
+        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
           {skills.map((skill, index) => (
-            <li key={index}>{skill}</li>
+            <Chip key={index} label={skill} color="primary" />
           ))}
-        </ul>
-      </div>
-    </section>
+        </Box>
+      </Container>
+    </Box>
   );
 };
 

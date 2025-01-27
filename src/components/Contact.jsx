@@ -1,18 +1,23 @@
 import React from 'react';
+import { Container, Typography, Box, TextField, Button } from '@mui/material';
 
 const Contact = () => {
   return (
-    <section id="contact" className="contact">
-      <div className="container">
-        <h2>Contact Me</h2>
-        <form>
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Your Email" required />
-          <textarea placeholder="Your Message" required></textarea>
-          <button type="submit" className="btn">Send Message</button>
-        </form>
-      </div>
-    </section>
+    <Box id="contact" sx={{ py: 8, bgcolor: 'background.paper' }}>
+      <Container>
+        <Typography variant="h4" gutterBottom>
+          Contact Me
+        </Typography>
+        <Box component="form" sx={{ maxWidth: 600, mx: 'auto' }}>
+          <TextField fullWidth label="Your Name" margin="normal" required />
+          <TextField fullWidth label="Your Email" margin="normal" required />
+          <TextField fullWidth label="Your Message" margin="normal" multiline rows={4} required />
+          <Button type="submit" variant="contained" sx={{ mt: 2 }}>
+            Send Message
+          </Button>
+        </Box>
+      </Container>
+    </Box>
   );
 };
 
