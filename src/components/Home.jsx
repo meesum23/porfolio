@@ -11,7 +11,7 @@ const Home = () => {
           <Avatar
             src={pic}
             alt="My Picture"
-            sx={{ width: 150, height: 150, border: '4px solid white' }}
+            sx={{ width: 200, height: 200, border: '4px solid white' }}
           />
           <Box>
             <Typography variant="h2" gutterBottom>
