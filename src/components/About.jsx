@@ -9,7 +9,7 @@ const About = () => {
           About Me
         </Typography>
         <Typography variant="body1">
-        Hi, I'm [Meesum Haider], a web developer with expertise in React, JavaScript, and modern web technologies.
+        Hi, I'm Meesum Haider, a web developer with expertise in React, JavaScript, and modern web technologies.
         I love building user-friendly and responsive web applications. I'm passionate about learning new technologies and frameworks.
         <br />
         I am currently available for freelance work or hire for your project. Please don't hesitate to reach out! 
