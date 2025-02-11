@@ -17,7 +17,7 @@ const Footer = () => {
         <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, mb: 2 }}>
           <IconButton
             color="inherit"
-            href="linkedin.com/in/meesum-haider-018553325 "
+            href="https://linkedin.com/in/meesum-haider-018553325 "
             target="_blank"
             rel="noopener noreferrer"
           >
