@@ -44,9 +44,6 @@ const Projects = () => {
                 <Typography variant="body2" color="text.secondary">
                   {project.description}
                 </Typography>
-                <Button variant="contained" href={project.link} sx={{ mt: 2 }}>
-                  View Project
-                </Button>
               </CardContent>
             </Card>
           ))}
