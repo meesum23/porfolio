@@ -24,7 +24,7 @@ const Home = () => {
           />
           <Box>
             <Typography variant="h2" gutterBottom>
-              Hello, I'm [Your Name]
+              Hello, I'm Meesum Haider
             </Typography>
             <Typography variant="h5" gutterBottom>
               A passionate developer building amazing web applications.
